@@ -11,38 +11,40 @@ body{
     
     animation-duration: 3s;
     animation-name: ora;
-    width: 100%;
+    width: 15%;
     position: relative;
-    animation: ora 13s ;
+    animation: ora 10s ;
+    position: absolute;
 
 }
 @keyframes ora {
    from{top: 0px;  }
     
     10% {
-        top: 600px; width: 100%; 
+        top: 300px; width: 80%; 
     }
-    20%{top: 200px; ;
+    20%{top: 5px; ;
     }
     30% {
-        top: 600px; width: 100%; ;
+        top: 300px; width: 80%; ;
     }
-    40%{top: 200px; ;
+    40%{top:5px; ;
     }
     50% {
-        top: 600px; width: 100%; ;
+        top: 300px; width: 80%; ;
     }
     60%{
-        top: 200px;
+        top: 5px;
     }
-    70%{top: 600px; width: 100%; ;
+    70%{top: 300px; width: 80%; ;
     }
     80% {
-        top: 200px;
+        top: 5px;
     }
-    90%{top: 600px; width: 100%; }
+    90%{top: 300px; width: 80%; }
+
     to {
-        top: 0px; 
+        top: 0px ; width: 15%; 
     }
     
 
