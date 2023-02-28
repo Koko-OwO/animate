@@ -4,6 +4,12 @@
 body{ 
     margin: 0;
     padding: 0;
+    background: url(../media/image/nubes.jpg);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    background-color: black;
+
 }
 .ola {
     display: flex;
@@ -15,36 +21,37 @@ body{
     position: relative;
     animation: ora 10s ;
     position: absolute;
+    
 
 }
 @keyframes ora {
-   from{top: 0px;  }
+   from{top: 0%;  }
     
     10% {
-        top: 300px; width: 80%; 
+        top: 100%; width: 80%; 
     }
-    20%{top: 5px; ;
+    20%{top: 10%; 
     }
     30% {
-        top: 300px; width: 80%; ;
+        top: 100%; width: 80%; 
     }
-    40%{top:5px; ;
+    40%{top:10% ;
     }
     50% {
-        top: 300px; width: 80%; ;
+        top: 100%; width: 80%; 
     }
     60%{
-        top: 5px;
+        top: 10%;
     }
-    70%{top: 300px; width: 80%; ;
+    70%{top: 100%; width: 80%; 
     }
     80% {
-        top: 5px;
+        top: 10%;
     }
-    90%{top: 300px; width: 80%; }
+    90%{top: 100%; width: 80%; }
 
     to {
-        top: 0px ; width: 15%; 
+        top: 0% ; width: 15%; 
     }
     
 
